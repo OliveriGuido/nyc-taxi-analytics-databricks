@@ -22,7 +22,7 @@ WHERE
 
 -- COMMAND ----------
 
--- Verificar que filtró basura
+-- Verificar que las agregaciones dan razonables post sacar outliers
 SELECT 
   COUNT(*) AS rows_silver,
   MIN(pickup_date) AS desde,
